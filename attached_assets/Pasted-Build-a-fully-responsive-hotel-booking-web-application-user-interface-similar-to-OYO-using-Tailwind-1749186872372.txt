@@ -1,0 +1,125 @@
+Build a fully responsive hotel booking web application user interface similar to OYO, using Tailwind CSS and semantic HTML. The UI should be modern, mobile-friendly, and production-grade.
+
+ Page Structure:
+
+Full-page layout with a sticky navbar
+
+Sidebar filters
+
+Hotel listings grid
+
+Pagination at the bottom
+
+Login/signup modal (optional but structured)
+
+ Components Required:
+
+Navbar
+
+Logo (left)
+
+Navigation links: Home, Hotels, About, Contact
+
+Login / Signup buttons (right)
+
+Responsive hamburger menu for mobile
+
+Search Bar Section (Hero)
+
+Horizontal card-style search bar with:
+
+Location input (text + location icon)
+
+Date picker (check-in & check-out)
+
+Guest selector (dropdown with adults/kids)
+
+Search button (primary CTA)
+
+Optional: Background image for hero section
+
+Filter Sidebar (Left)
+
+Card with these filters:
+
+Price range slider
+
+Star rating (checkbox 1 to 5)
+
+Room type (Single, Double, Deluxe, Suite)
+
+Amenities (checkboxes: WiFi, Pool, AC, Gym, Parking, Restaurant, Pet-friendly)
+
+Hotel Listings (Right Content Area)
+
+Display hotels in a responsive grid (2 cols desktop, 1 col mobile)
+
+Each Hotel Card should include:
+
+Hotel image (cover style)
+
+Hotel name
+
+City / location
+
+Star rating with icons
+
+Price per night
+
+Room type tags
+
+Amenities icons (WiFi, AC, etc.)
+
+“View Details” and “Book Now” buttons
+
+Hover effect: shadow + slight scale
+
+Optional: Discount badge or “Sold Out” overlay
+
+Pagination Controls
+
+Next / Previous buttons with page numbers
+
+Centered below the listing grid
+
+Footer
+
+Sections: About Us, Support, Privacy Policy, Terms of Service
+
+Social media icons
+
+Copyright notice
+
+ Styling Guidelines:
+
+Use Tailwind CSS for all layout and styling
+
+Apply dark:text-white and dark:bg-gray-900 variants for dark mode support
+
+Use accessible components (aria labels, semantic tags)
+
+Ensure mobile responsiveness with Tailwind breakpoints (sm, md, lg, xl)
+
+Add hover states for buttons and cards
+
+Use container mx-auto px-4 for overall layout width
+
+ Optional Enhancements:
+
+Toast alert on booking confirmation
+
+Skeleton loader while hotel data loads
+
+Filter chips for active filters
+
+Fixed filter drawer on mobile view
+
+ Do NOT include:
+
+Backend logic
+
+Dummy API calls
+
+External CSS or JS (Tailwind only)
+
+Return complete code for this page — all sections together. Write clean and commented code, using semantic HTML5. Ensure all Tailwind classes are applied correctly and layout is pixel-perfect for desktop and mobile screens.
